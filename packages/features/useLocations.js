@@ -3,7 +3,7 @@ import  { displayCard }  from '../../components/card.js'
 import  { displayModal }  from '../../components/modal.js'
 
 const location_btn = document.getElementById("locations-button");
-const image = 'http://localhost/rick_morty/assets/image/planets.jpg';
+const image = '../../assets/image/planets.jpg';
 
 function useLocations(page) {
   getView("locations")

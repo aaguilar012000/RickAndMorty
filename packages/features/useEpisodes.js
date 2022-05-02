@@ -3,7 +3,7 @@ import  { displayCard }  from '../../components/card.js'
 import  { displayModal }  from '../../components/modal.js'
 
 const episode_btn = document.getElementById("episodes-button");
-const image = 'http://localhost/rick_morty/assets/image/rickMorty.jpg';
+const image = '../../assets/image/rickMorty.jpg';
 
 function useEpisode(page) {
   getView("episodes")
